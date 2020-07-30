@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بث الراديو</title>
+    <link rel="stylesheet" type="" href="css/MediaPlayer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mada&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main id="IdMainPlayer">  
+      <header id="IdHeader">
+       
+        <img src="image/logo1.png" alt="الصورة غير متوفرة">
+        <h1> راديو مباشر</h1>
+        <p id="IdParagRadioName"> قناة 1</p>
+      </header>  
+    <div id="IdContent">
+        <article id="IdArticlButton"> 
+        <img id="IdNextButton" src="image/next.png"> 
+        <img id="IdPlayButton" src="image/play.png">   
+        <img id="IdBackButton" src="image/back.png"> 
+        <audio id="IdAudioFile" src="audio/001.mp3">   </audio>  
+        </article> 
+       <article id="IdVolumeButton">
+          <h3>مستوى الصوت</h3>
+          <input id="IdVolumeLevel" type="range">
+          <h3>سرعة الصوت</h3>
+          <input id="IdVolumeSpeed" type="range" max="200" min="0">
+
+        </article>   
+        <article id="IdColor">
+          <button id="IdColorButton1"></button>
+          <button id="IdColorButton2"></button>
+          <button id="IdColorButton3"></button>
+          <button id="IdColorButton4"></button>
+          <button id="IdColorButton5"></button>
+          <button id="IdColorButton6"></button>
+          <button id="IdColorButton7"></button>
+          <button id="IdColorButton8"></button>
+        </article >
+        <article id="IdArticleLogo">
+          <img src="image/logo3.png" id="IdLogoBottom">  
+        </article>
+        <article id="IdArticleFooter">
+         <h5>جميع الحقوق محفوظه - م.هشام الشريف 2020</h5>
+        </article>
+    </div>
+    
+
+  </main>
+
+  <script src="script/volume.js"> </script>
+    <script src="script/MusicPlayer.js"> </script>
+    <script src="script/color.js"> </script>
+
+
+  </body>
+
+</html>

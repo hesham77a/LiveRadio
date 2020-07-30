@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    /* margin: 0px; */
+}
+/* ************************* body *********************** */
+body{
+    direction: rtl;
+
+}
+/* ************************* main Player *********************** */
+
+#IdMainPlayer{
+width: 350px;
+background-color: rgb(10, 160, 197);
+/*------main توسيط----- */
+position: absolute;
+left: 50%;
+transform: translateX(-50%); 
+
+/* position: fixed;
+left: 0%;
+bottom: 0%; */
+
+}
+/* ************************* Header *********************** */
+
+#IdHeader{
+text-align: center;
+color: white;
+height: 320px;
+}
+#IdHeader img{
+    height: 150px;
+    margin-top:10px;
+}
+
+#IdHeader h1{
+margin: 20px 0px;
+font-family: 'El Messiri', sans-serif;
+
+}
+#IdHeader p{
+font-size: 20px;
+font-family: 'Amiri', serif;
+/* padding-bottom: 20px; */
+
+}
+
+/* ************************* Div Content *********************** */
+
+#IdContent{
+background-color:aliceblue ;
+}
+/* ************************* Article Button *********************** */
+#IdArticlButton{
+    /* توسيط الصور */
+display: flex;
+justify-content: center;
+padding-top: 20px;
+cursor: pointer;
+}
+#IdArticlButton img{
+width: 50px;
+height: 50px;
+margin: 0 20px;
+}
+/* ************************* Article  volume Button *********************** */
+
+#IdVolumeButton{
+text-align: center;
+font-family: 'Mada', sans-serif;
+
+}
+#IdVolumeButton h3{
+    margin: 10px 0px;
+}
+#IdVolumeButton input{
+    width: 99%;
+}
+/* التحكم في خصائص شريط الانزلاق الخاص بالزر */
+input[type="range" i]{
+-webkit-appearance: none;
+background: rgb(5, 180, 171);
+height: 4px;
+outline: 0px;
+}
+/* تغيير شكل الزر */
+input[type=range]::-webkit-slider-thumb{
+    /* الغاء التنسيق الافتراضي */
+    -webkit-appearance: none;  
+background-color: rgb(5, 122, 177);
+height: 22px;
+width: 22px;
+border-radius: 50%;
+border:  0.5px solid black;
+
+}
+/* ************************* Article  Color *********************** */
+
+#IdColor{
+text-align: center;
+margin-top: 25px;
+}
+#IdColor button{
+height: 25px;
+width: 25px;
+border-radius: 50%;
+outline: 0px;
+cursor: pointer;
+}
+#IdColorButton1{
+    background-color: antiquewhite;
+}
+#IdColorButton2{
+    background-image:linear-gradient(to left , red,rgb(243, 200, 11));
+ }
+ #IdColorButton3{
+    background-image: linear-gradient(to right, darkgreen, yellow);
+ }
+ #IdColorButton4{
+    background:darkblue;
+ }
+ #IdColorButton5{
+    background-image:linear-gradient(to left , rgb(148, 3, 124),rgb(247, 170, 217));
+ }
+ #IdColorButton6{
+    background-image:linear-gradient(to left , red, yellow, blue);
+ }
+ #IdColorButton7{
+    background-image:repeating-linear-gradient(220deg,orange,yellow 30%,green 50%);
+ }
+ #IdColorButton8{
+    background-image:radial-gradient(red 5%, yellow 25%, DodgerBlue 60%);
+ }
+/* ************************* Article  Logo Bottom *********************** */
+#IdArticleLogo{
+    text-align: center;
+    /* border-top  : 3px solid  rgb(5, 180, 171); */
+    /* border-bottom :  3px solid  rgb(5, 180, 171); */
+    /* border-top :  1px solid  rgb(62, 63, 63); 
+     border-bottom :  1px solid  rgb(62, 63, 63);  */
+    margin-top: 10px;
+    padding :  10px 0px ;
+}
+#IdLogoBottom{
+    height: 90px;
+    width: 120px;
+}
+/* ************************* Article  Footer*********************** */
+
+#IdArticleFooter{
+text-align: center;
+position:absolute;
+bottom:0;
+width:100%;
+}
+
+#IdArticleFooter h5 {
+padding-top: 10px;
+    border-top: 1px solid rgb(72, 71, 73);
+font-size: xx-small;
+
+}
